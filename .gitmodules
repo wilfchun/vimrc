@@ -10,3 +10,6 @@
 [submodule "my_plugins/neosnippet.vim"]
 	path = my_plugins/neosnippet.vim
 	url = https://github.com/Shougo/neosnippet.vim.git
+[submodule "my_plugins/magma-nvim"]
+	path = my_plugins/magma-nvim
+	url = https://github.com/dccsillag/magma-nvim.git
