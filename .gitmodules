@@ -13,3 +13,18 @@
 [submodule "my_plugins/magma-nvim"]
 	path = my_plugins/magma-nvim
 	url = https://github.com/dccsillag/magma-nvim.git
+[submodule "my_plugins/asyncrun.vim"]
+	path = my_plugins/asyncrun.vim
+	url = https://github.com/skywind3000/asyncrun.vim.git
+[submodule "my_plugins/vim-fugitive"]
+	path = my_plugins/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "my_plugins/vim-angry-reviewer"]
+	path = my_plugins/vim-angry-reviewer
+	url = https://github.com/anufrievroman/vim-angry-reviewer
+[submodule "my_plugins/deoplete.nvim"]
+	path = my_plugins/deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim
+[submodule "my_plugins/coc.nvim"]
+	path = my_plugins/coc.nvim
+	url = https://github.com/neoclide/coc.nvim

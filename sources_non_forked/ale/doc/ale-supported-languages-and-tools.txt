@@ -36,6 +36,7 @@ Notes:
   * `write-good`
 * ASM
   * `gcc`
+  * `llvm-mc`
 * AVRA
   * `avra`
 * Awk
@@ -66,6 +67,7 @@ Notes:
   * `ccls`
   * `clang` (`cc`)
   * `clang-format`
+  * `clangcheck`!!
   * `clangd`
   * `clangtidy`!!
   * `cppcheck`
@@ -100,6 +102,7 @@ Notes:
   * `gcc` (`cc`)
   * `uncrustify`
 * Cairo
+  * `scarb`!!
   * `starknet`
 * Chef
   * `cookstyle`
@@ -158,6 +161,7 @@ Notes:
   * `dhall-lint`
 * Dockerfile
   * `dockerfile_lint`
+  * `dockerlinter`
   * `dprint`
   * `hadolint`
 * Elixir
@@ -166,6 +170,7 @@ Notes:
   * `dialyxir`
   * `dogma`!!
   * `elixir-ls`
+  * `lexical`
   * `mix`!!
 * Elm
   * `elm-format`
@@ -173,6 +178,7 @@ Notes:
   * `elm-make`
 * Erb
   * `erb`
+  * `erb-formatter`
   * `erblint`
   * `erubi`
   * `erubis`
@@ -196,6 +202,8 @@ Notes:
   * `fusion-lint`
 * Git Commit Messages
   * `gitlint`
+* Gleam
+  * `gleamlsp`
 * GLSL
   * `glslang`
   * `glslls`
@@ -211,8 +219,6 @@ Notes:
   * `golangci-lint`!!
   * `golangserver`
   * `golines`
-  * `golint`
-  * `gometalinter`!!
   * `gopls`
   * `gosimple`!!
   * `gotype`!!
@@ -222,6 +228,8 @@ Notes:
   * `eslint`
   * `gqlint`
   * `prettier`
+* Groovy
+  * `npm-groovy-lint`
 * Hack
   * `hack`
   * `hackfmt`
@@ -235,6 +243,7 @@ Notes:
   * `cabal-ghc`
   * `cspell`
   * `floskell`
+  * `fourmolu`
   * `ghc`
   * `ghc-mod`
   * `hdevtools`
@@ -255,11 +264,13 @@ Notes:
   * `alex`
   * `angular`
   * `cspell`
+  * `eslint`
   * `fecs`
   * `html-beautify`
   * `htmlhint`
   * `prettier`
   * `proselint`
+  * `rustywind`
   * `tidy`
   * `write-good`
 * Idris
@@ -281,6 +292,7 @@ Notes:
   * `javalsp`
   * `uncrustify`
 * JavaScript
+  * `biome`
   * `clang-format`
   * `cspell`
   * `deno`
@@ -340,6 +352,7 @@ Notes:
 * Lua
   * `cspell`
   * `lua-format`
+  * `lua-language-server`
   * `luac`
   * `luacheck`
   * `luafmt`
@@ -357,6 +370,7 @@ Notes:
   * `cspell`
   * `languagetool`!!
   * `markdownlint`!!
+  * `marksman`
   * `mdl`
   * `pandoc`
   * `prettier`
@@ -372,11 +386,15 @@ Notes:
   * `mmc`!!
 * NASM
   * `nasm`!!
+* Nickel
+  * `nickel_format`
 * Nim
   * `nim check`!!
   * `nimlsp`
   * `nimpretty`
 * nix
+  * `alejandra`
+  * `deadnix`
   * `nix-instantiate`
   * `nixfmt`
   * `nixpkgs-fmt`
@@ -481,6 +499,7 @@ Notes:
   * `isort`
   * `mypy`
   * `prospector`!!
+  * `pycln`
   * `pycodestyle`
   * `pydocstyle`
   * `pyflakes`
@@ -490,8 +509,10 @@ Notes:
   * `pylsp`
   * `pyre`
   * `pyright`
+  * `refurb`
   * `reorder-python-imports`
   * ruff
+  * ruff-format
   * `unimport`
   * `vulture`!!
   * `yapf`
@@ -534,11 +555,13 @@ Notes:
   * `brakeman`!!
   * `cspell`
   * `debride`
+  * `packwerk`!!
   * `prettier`
   * `rails_best_practices`!!
   * `reek`
   * `rubocop`
   * `ruby`
+  * `rubyfmt`
   * `rufo`
   * `solargraph`
   * `sorbet`
@@ -574,6 +597,7 @@ Notes:
 * SML
   * `smlnj`
 * Solidity
+  * `forge`
   * `solc`
   * `solhint`
   * `solium`
@@ -630,6 +654,7 @@ Notes:
 * TOML
   * `dprint`
 * TypeScript
+  * `biome`
   * `cspell`
   * `deno`
   * `dprint`
@@ -687,6 +712,7 @@ Notes:
   * `swaglint`
   * `yaml-language-server`
   * `yamlfix`
+  * `yamlfmt`
   * `yamllint`
 * YANG
   * `yang-lsp`
